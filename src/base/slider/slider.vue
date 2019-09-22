@@ -92,7 +92,6 @@ export default {
       this.slider.on('scrollEnd', () => {
         let pageIndex = this.slider.getCurrentPage().pageX
 
-        console.log(this.slider.getCurrentPage())
         // better-scroll 新版本去掉
         // if (this.loop) {
         //   pageIndex -= 1
